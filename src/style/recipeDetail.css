@@ -1,0 +1,34 @@
+.fixedbutton {
+  bottom: 0;
+  position: fixed;
+  right: 0;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.img-recipe {
+  border-radius: 30px;
+  width: 340px;
+}
+
+.video {
+  height: 250px;
+  width: 340px;
+}
+
+.container-img {
+  display: flex;
+  justify-content: center;
+}
+
+.container-recomend {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+}

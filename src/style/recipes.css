@@ -1,0 +1,30 @@
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3px;
+}
+
+.cards-recipes {
+  color: black;
+  margin: 5px;
+  padding: 3px;
+  text-align: center;
+  text-decoration: none;
+  width: 163px;
+}
+
+.imgs-cards {
+  border-radius: 30px;
+  width: 163px;
+}
+
+.input-search {
+ 
+  border-radius: 20px;
+  width: 200px;
+  background-color: #eed097;
+}
+
+body {
+  background: linear-gradient(to right, #c97f3e, #a36d3e);
+}

@@ -1,0 +1,8 @@
+.footer {
+  background: linear-gradient(to right, #b98c64, #dfaa7d);
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}

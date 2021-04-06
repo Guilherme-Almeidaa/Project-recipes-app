@@ -1,0 +1,7 @@
+.container-category {
+  background: linear-gradient(to right, #b98c64, #dfaa7d);
+  display: flex;
+  flex-flow: column wrap;
+  height: 90px;
+  justify-content: center;
+}
