@@ -29,7 +29,7 @@ function DrinksRecipes() {
       setInitialRecipes(response.drinks);
       setIsFetching(false);
     });
-  }, [setRecipesFilters]);
+  }, [setRecipesFilters,setInitialRecipes]);
 
   if (recipesFilters !== null && recipesFilters.length === 1) {
     const { idDrink } = recipesFilters[zero];

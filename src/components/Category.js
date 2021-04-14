@@ -37,7 +37,7 @@ function Category() {
       getCategoryFoods().then((response) => setCategorys(response.meals
         .slice(firstRecipe, lastRecipe)));
     }
-  }, []);
+  }, [checkLocation]);
 
   const handleFilter = (filter) => {
     if (filter === 'Goat') {

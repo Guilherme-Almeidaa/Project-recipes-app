@@ -29,7 +29,7 @@ function FoodRecipes() {
       setInitialRecipes(response.meals);
       setIsFetching(false);
     });
-  }, [setRecipesFilters]);
+  }, [setRecipesFilters,setInitialRecipes]);
 
   if (
     recipesFilters !== null
